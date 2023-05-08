@@ -112,7 +112,7 @@ st.markdown('''
         }
 </style>
 <p style='text-align: center'>This rule can then be used to suggest
-<span class='highlight'> complementary products</span> or to create <span class='highlight'> targeted marketing campaigns</span></p>
+<span class='highlight'> complementary products</span> or to create <span class='highlight'> targeted marketing campaigns</span>.</p>
 ''', unsafe_allow_html=True)
 
 st.markdown(button_style + '''
@@ -131,13 +131,13 @@ st.markdown('''
         }
 </style>
 <ul>
-<li> <span style='font-weight: bold;'>Retail</span> -> Identify which products are frequently purchased together</li>
-<li> <span style='font-weight: bold;'>E-commerce </span> -> Increase sales by suggesting relevant products that the customer is likely to be interested in</li>
-<li> <span style='font-weight: bold;'>Grocery stores</span> -> If chips and salsa are frequently purchased together, they can be placed next to each other to increase sales</li>
-<li> <span style='font-weight: bold;'>Hospitality</span> -> Menu items are commonly purchased together and create meal bundles or promotional packages that include these items</li>
+<li> <span style='font-weight: bold;'>Retail</span> -> Identify which products are frequently purchased together.</li>
+<li> <span style='font-weight: bold;'>E-commerce </span> -> Increase sales by suggesting relevant products that the customer is likely to be interested in.</li>
+<li> <span style='font-weight: bold;'>Grocery stores</span> -> If chips and salsa are frequently purchased together, they can be placed next to each other to increase sales.</li>
+<li> <span style='font-weight: bold;'>Hospitality</span> -> Menu items are commonly purchased together and create meal bundles or promotional packages that include these items.</li>
 </ul>
-<p>As you see, Association Rules are a data mining technique used to <span class='highlight'> discover relationships </span> such as <span class='highlight'> co-occurrence </span> among items that we are interested</p>
-<p>Basket Analysis uses Association Rules to uncover relationships between items in <span class='highlight'>a transactional dataset</span> and create a set of rules</p>
+<p>As you see, Association Rules are a data mining technique used to <span class='highlight'> discover relationships </span> such as <span class='highlight'> co-occurrence </span> among items that we are interested.</p>
+<p>Basket Analysis uses Association Rules to uncover relationships between items in <span class='highlight'>a transactional dataset</span> and create a set of rules.</p>
 <p style='font-weight: bold;'>Rule</p>
 <p>1) The antecedent: a set of items that is present in the transaction <br> 2) the consequent: a set of items that are likely to be purchased if the antecedent is present</p>
 ''',
@@ -156,7 +156,7 @@ st.markdown('''
 </style>
 <p>When two or more items are often seen or bought together it’s called <span class='highlight'> a frequency set</span>.</p>
 <p>Suppose you have a clothing store.
-<p>Here are some examples of transaction history from our POS</p>
+<p>Here are some examples of transaction history from your POS.</p>
 <ul>
 <li>{jacket, t-shirt, jeans, shoes}</li>
 <li>{dress, shoes}</li>
@@ -168,7 +168,7 @@ st.markdown('''
 <p> Let's say we want to use basket analysis to find out <span class='highlight'>which items are commonly bought together</span>, and use that information to make recommendations to customers.</p>
 <p>To start, we can look at the itemset <span class='bold'>{jacket, shoes}</span> (if someone buy a jacket, woul you recommend shoes to them ?) </p>
 <p>We can calculate the <sapn class='highlight'>confidence</sapn> of the rule "if someone buys a jacket, they are likely to buy shoes" as <span class='bold'>3/4</span>, because jacket is present in four transactions, and in three of those transactions, shoes is also present.</p>
-<p>Similarly, we can look at the itemset <span class='bold'>{dress, shoes}</span>. If someone buys a dress, they are likely to buy shoes as <span class='bold'>2/2</span>, because dress is present in two transactions, and in both of those transactions, shoes is also present</p>
+<p>Similarly, we can look at the itemset <span class='bold'>{dress, shoes}</span>. If someone buys a dress, they are likely to buy shoes as <span class='bold'>2/2</span>, because dress is present in two transactions, and in both of those transactions, shoes is also present.</p>
 <p class='bold'>Two important measures used in association rules are support and confidence.</p>
 <ul>
 <li>
