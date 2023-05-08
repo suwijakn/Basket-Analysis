@@ -228,7 +228,10 @@ else:
     data = load_data(DEFAULT_FILE)
 
 if data is not None:
-    st.dataframe(data.sort_values(by=['Member_number', 'Date']))
+    if use_custom_file:
+        st.dataframe(data)
+    else:
+        st.dataframe(data.sort_values(by=['Member_number', 'Date']))
 
 
 if "clicked" not in st.session_state:
