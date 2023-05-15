@@ -1,3 +1,5 @@
+# This repo is for hosting my DEMO for Market Basket Analysis using streamlit
+
 # How Association Rules Work ? 🤓
 
 ทำความเข้าใจ Market Basket Analysis อย่างง่ายกัน   🛒 🎯
